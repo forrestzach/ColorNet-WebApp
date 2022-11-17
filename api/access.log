@@ -1,0 +1,2136 @@
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 176, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 130, in recolorImageNET
+    net = torch.load('Models/ColorResNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 161, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 115, in recolorImageNET
+    net = torch.load('Models/ColorResNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 161, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 115, in recolorImageNET
+    net = torch.load('Models/ColorResNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 161, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 115, in recolorImageNET
+    net = torch.load('Models/ColorResNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 232, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 186, in recolorImageNET
+    net = torch.load('Models/ColorResNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 232, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 186, in recolorImageNET
+    net = torch.load('Models/ColorResNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 232, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 186, in recolorImageNET
+    net = torch.load('/root/file-upload/api/Models/ColorResNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 232, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 186, in recolorImageNET
+    net = torch.load('/root/file-upload/api/Models/ColorResFUCKNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/root/file-upload/api/Models/ColorResFUCKNet_0_1_3.pt'
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 232, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 186, in recolorImageNET
+    net = torch.load('/root/file-upload/api/Models/ColorResNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 232, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 186, in recolorImageNET
+    net = torch.load('/root/file-upload/api/Models/ColorResNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 232, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 186, in recolorImageNET
+    net = torch.load('/root/file-upload/api/Models/ColorResNet_0_2_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 250, in getImage
+    data = base64.b64encode(image_binary)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'JpegImageFile'
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 250, in getImage
+    data = base64.b64encode(image_binary)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'JpegImageFile'
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 250, in getImage
+    data = base64.b64encode(image_binary)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'JpegImageFile'
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb7.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 250, in getImage
+    data = base64.b64encode(image_binary)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'JpegImageFile'
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 250, in getImage
+    data = base64.b64encode(image_binary)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'JpegImageFile'
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 250, in getImage
+    data = base64.b64encode(image_binary)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'JpegImageFile'
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 250, in getImage
+    data = base64.b64encode(image_binary)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'JpegImageFile'
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 250, in getImage
+    data = base64.b64encode(image_binary)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'JpegImageFile'
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 250, in getImage
+    data = base64.b64encode(image_binary)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'JpegImageFile'
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 251, in getImage
+    image_b64 = base64.b64encode((CORRECTED_FOLDER + "/" + desiredImage).read())
+AttributeError: 'str' object has no attribute 'read'
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 259, in getImage
+    return jsonify(response)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/json/__init__.py", line 302, in jsonify
+    f"{dumps(data, indent=indent, separators=separators)}\n",
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/json/__init__.py", line 132, in dumps
+    return _json.dumps(obj, **kwargs)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/root/miniconda3/envs/myenv/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/json/__init__.py", line 51, in default
+    return super().default(o)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Exception on /api/getImage [GET]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 252, in getImage
+    image = open((CORRECTED_FOLDER + "/" + desiredImage), "r")
+  File "/root/miniconda3/envs/myenv/lib/python3.9/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb7.jpg
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb7.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb7.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hang1.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hang2.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hang3.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hang4.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hang5.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hang5.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hang5.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hang5.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_7EF2C3EF-AB3D-40FB-A4F4-E201FA157FE1.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_IMG_3295.JPG
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_6A80D0C9-5417-4FFC-BE85-C636548EE4EC.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_1.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_2.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_3.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_7.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_desktopTest.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_friend.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_IMG_3295.JPG
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_IMG_20221015_102006759.jpg
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 233, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 187, in recolorImageNET
+    net = torch.load('/root/file-upload/api/Models/ColorResNet_0_1_3.pt', map_location=torch.device('cpu')).float().eval()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 930, in _legacy_load
+    result = unpickler.load()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 746, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'ColorResNet' on <module '__main__' from '/root/miniconda3/envs/myenv/bin/gunicorn'>
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 242, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 196, in recolorImageNET
+    net.load_state_dict(new_state_dict)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1604, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for ColorResNet:
+	size mismatch for features.conv0.weight: copying a param with shape torch.Size([2, 3, 3, 3]) from checkpoint, the shape in current model is torch.Size([2, 3, 7, 7]).
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 244, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 198, in recolorImageNET
+    net.load_state_dict(new_state_dict)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1604, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for ColorResNet:
+	size mismatch for features.conv0.weight: copying a param with shape torch.Size([1, 3, 3, 3]) from checkpoint, the shape in current model is torch.Size([1, 3, 7, 7]).
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 244, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 206, in recolorImageNET
+    output_tensor = img_tensor + intensity * shift
+RuntimeError: The size of tensor a (275) must match the size of tensor b (279) at non-singleton dimension 2
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb7.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_IMG_3295.JPG
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_IMG_20221015_102006759.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_F3BA2BD9-CE13-4AC0-B323-05B1397653E8.jpeg
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 244, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 184, in recolorImageNET
+    img_tensor = tfms(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 269, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 360, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional_tensor.py", line 959, in normalize
+    tensor.sub_(mean).div_(std)
+RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 244, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 184, in recolorImageNET
+    img_tensor = tfms(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 269, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 360, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional_tensor.py", line 959, in normalize
+    tensor.sub_(mean).div_(std)
+RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 244, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 184, in recolorImageNET
+    img_tensor = tfms(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 269, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 360, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional_tensor.py", line 959, in normalize
+    tensor.sub_(mean).div_(std)
+RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_7489B75B-47E6-4DFF-9066-531F9D50A310.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_7489B75B-47E6-4DFF-9066-531F9D50A310.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_7489B75B-47E6-4DFF-9066-531F9D50A310.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_A91CEC30-28BB-454F-AA89-6F9237768D2E.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_IMG_3295.JPG
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_IMG_3295.JPG
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_F09986AB-E6C2-469B-A51B-982057540F0D.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_76D8728B-5D44-417C-9609-B21FE849FB5E.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_87B7B388-73EE-4A75-87B2-0A63496FDC47.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hang5.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_61424BE0-6498-4B9B-8051-116D4815B2D5.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb7.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_e8d8e75d-691c-4a96-9f33-54e3cae7b190-NCAA_Football_Clemson_vs._Syracuse45.webp
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_Screenshot_2022-10-24_152133.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_Screenshot_2022-10-24_152133.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_1.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_1.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_F40549CA-D97D-4A7B-BC8F-658E1D5E52D8.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_desktopTest.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_pexels-roberto-nickson-2559941.jpg
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 244, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 184, in recolorImageNET
+    img_tensor = tfms(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 269, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 360, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional_tensor.py", line 959, in normalize
+    tensor.sub_(mean).div_(std)
+RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_3.png
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 244, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 184, in recolorImageNET
+    img_tensor = tfms(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 269, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 360, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional_tensor.py", line 959, in normalize
+    tensor.sub_(mean).div_(std)
+RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 244, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 184, in recolorImageNET
+    img_tensor = tfms(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 269, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 360, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional_tensor.py", line 959, in normalize
+    tensor.sub_(mean).div_(std)
+RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_colorNetLogo.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_colorNetLogo.jpg
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 244, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 184, in recolorImageNET
+    img_tensor = tfms(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 269, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 360, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional_tensor.py", line 959, in normalize
+    tensor.sub_(mean).div_(std)
+RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_colorNetLogo.jpg
+Made it into endpoint
+requested image name is corrected_colorNetLogo.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_colorNetLogo.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_1.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_pexels-roberto-nickson-2559941.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+requested image name is corrected_colorNetLogo.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_istockphoto-654636604-612x612.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_istockphoto-654636604-612x612.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_john_deer_2.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_background.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_lockscreen.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_973ACF69-45D1-4772-BD6F-144C587E21D5.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_AC3D2A4F-2458-4483-A9C6-526F8532A8FE.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_lockscreen.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_IMG_7235.JPG
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_testimage.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_hotdog.jpg
+multiple upload endpoint called
+ImmutableMultiDict([('image0', <FileStorage: '2.png' ('image/png')>), ('image1', <FileStorage: '3.png' ('image/png')>)])
+multiple upload endpoint called
+<Request 'http://52.118.210.35/api/uploadMultiple' [POST]>
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '2')])])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '7')])])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+Exception on /api/uploadMultiple [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 192, in fileUploadMultiple
+    for i in range(numFiles):
+TypeError: 'str' object cannot be interpreted as an integer
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+Exception on /api/uploadMultiple [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 195, in fileUploadMultiple
+    currentFileKey = "image" + i
+TypeError: can only concatenate str (not "int") to str
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '0')])])
+ImmutableMultiDict([])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '0')])])
+ImmutableMultiDict([])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '44268DEA-EF4D-4A3C-9FDA-39804F868603.jpeg' ('image/jpeg')>), ('image1', <FileStorage: '63D06B93-685D-4017-8A85-91DB6EDD0830.jpeg' ('image/jpeg')>), ('image2', <FileStorage: 'E8FAD0AB-E4FB-41D5-ABD7-9AEFBE170B5E.jpeg' ('image/jpeg')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '7')])])
+ImmutableMultiDict([('image0', <FileStorage: 'thumb1.jpg' ('image/jpeg')>), ('image1', <FileStorage: 'thumb2.jpg' ('image/jpeg')>), ('image2', <FileStorage: 'thumb3.jpg' ('image/jpeg')>), ('image3', <FileStorage: 'thumb4.jpg' ('image/jpeg')>), ('image4', <FileStorage: 'thumb5.jpg' ('image/jpeg')>), ('image5', <FileStorage: 'thumb6.jpg' ('image/jpeg')>), ('image6', <FileStorage: 'thumb7.jpg' ('image/jpeg')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '1')])])
+ImmutableMultiDict([('image0', <FileStorage: 'pexels-roberto-nickson-2559941.jpg' ('image/jpeg')>)])
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_pexels-roberto-nickson-2559941.jpg
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+Exception on /api/uploadMultiple [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 206, in fileUploadMultiple
+    processingQueue.append(filename)
+NameError: name 'processingQueue' is not defined
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '2')])])
+ImmutableMultiDict([('image0', <FileStorage: '4.png' ('image/png')>), ('image1', <FileStorage: '5.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '2')])])
+ImmutableMultiDict([('image0', <FileStorage: '3.png' ('image/png')>), ('image1', <FileStorage: '4.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '2')])])
+ImmutableMultiDict([('image0', <FileStorage: '6.png' ('image/png')>), ('image1', <FileStorage: '7.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '6.png' ('image/png')>), ('image2', <FileStorage: '7.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '2')])])
+ImmutableMultiDict([('image0', <FileStorage: '6.png' ('image/png')>), ('image1', <FileStorage: '7.png' ('image/png')>)])
+['6.png']
+['6.png', '7.png']
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+['1.png']
+['1.png', '2.png']
+['1.png', '2.png', '3.png']
+1.png
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+['1.png']
+['1.png', '2.png']
+['1.png', '2.png', '3.png']
+1.png
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+['1.png']
+['1.png', '2.png']
+['1.png', '2.png', '3.png']
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '3')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>)])
+['1.png']
+['1.png', '2.png']
+['1.png', '2.png', '3.png']
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '4')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>), ('image3', <FileStorage: '4.png' ('image/png')>)])
+['1.png']
+['1.png', '2.png']
+['1.png', '2.png', '3.png']
+['1.png', '2.png', '3.png', '4.png']
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '13')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>), ('image3', <FileStorage: '4.png' ('image/png')>), ('image4', <FileStorage: '5.png' ('image/png')>), ('image5', <FileStorage: '6.png' ('image/png')>), ('image6', <FileStorage: '7.png' ('image/png')>), ('image7', <FileStorage: 'testimage.jpg' ('image/jpeg')>), ('image8', <FileStorage: 'thumb1.jpg' ('image/jpeg')>), ('image9', <FileStorage: 'thumb2.jpg' ('image/jpeg')>), ('image10', <FileStorage: 'thumb3.jpg' ('image/jpeg')>), ('image11', <FileStorage: 'thumb4.jpg' ('image/jpeg')>), ('image12', <FileStorage: 'thumb5.jpg' ('image/jpeg')>)])
+['1.png']
+['1.png', '2.png']
+['1.png', '2.png', '3.png']
+['1.png', '2.png', '3.png', '4.png']
+['1.png', '2.png', '3.png', '4.png', '5.png']
+['1.png', '2.png', '3.png', '4.png', '5.png', '6.png']
+['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png']
+['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', 'testimage.jpg']
+['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', 'testimage.jpg', 'thumb1.jpg']
+['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', 'testimage.jpg', 'thumb1.jpg', 'thumb2.jpg']
+['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', 'testimage.jpg', 'thumb1.jpg', 'thumb2.jpg', 'thumb3.jpg']
+['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', 'testimage.jpg', 'thumb1.jpg', 'thumb2.jpg', 'thumb3.jpg', 'thumb4.jpg']
+['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', 'testimage.jpg', 'thumb1.jpg', 'thumb2.jpg', 'thumb3.jpg', 'thumb4.jpg', 'thumb5.jpg']
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '2')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>)])
+['1.png']
+['1.png', '2.png']
+multiple upload endpoint called
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('numImages', '7')])])
+ImmutableMultiDict([('image0', <FileStorage: '1.png' ('image/png')>), ('image1', <FileStorage: '2.png' ('image/png')>), ('image2', <FileStorage: '3.png' ('image/png')>), ('image3', <FileStorage: '4.png' ('image/png')>), ('image4', <FileStorage: '5.png' ('image/png')>), ('image5', <FileStorage: '6.png' ('image/png')>), ('image6', <FileStorage: '7.png' ('image/png')>)])
+['1.png']
+['1.png', '2.png']
+['1.png', '2.png', '3.png']
+['1.png', '2.png', '3.png', '4.png']
+['1.png', '2.png', '3.png', '4.png', '5.png']
+['1.png', '2.png', '3.png', '4.png', '5.png', '6.png']
+['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png']
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 255, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 121, in recolorImageNET
+    img_tensor = tfms(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 269, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 360, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional_tensor.py", line 959, in normalize
+    tensor.sub_(mean).div_(std)
+RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0
+Made it into endpoint
+Exception on /api/upload [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/root/file-upload/api/api.py", line 255, in fileUpload
+    correctedName = recolorImageNET(filename)
+  File "/root/file-upload/api/api.py", line 121, in recolorImageNET
+    img_tensor = tfms(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 269, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 360, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/root/miniconda3/envs/myenv/lib/python3.9/site-packages/torchvision/transforms/functional_tensor.py", line 959, in normalize
+    tensor.sub_(mean).div_(std)
+RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_https___rubbingtherock.com_wp-content_uploads_imagn-images_2017_07_19160871.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_https___rubbingtherock.com_wp-content_uploads_imagn-images_2017_07_19160871.jpeg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_Gilpin_110122_022.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_Gilpin_110122_022.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_Gilpin_110122_022.jpg
+Made it into endpoint
+requested image name is corrected_Gilpin_110122_022.jpg
+Made it into endpoint
+requested image name is corrected_Gilpin_110122_022.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson2.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_Celebration4.CC.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_Celebration4.CC.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_DCP02592.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_94_Fb_College_Game_Day_100122_STF.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_1.png
+Made it into endpoint
+requested image name is corrected_2.png
+Made it into endpoint
+requested image name is corrected_3.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_1.png
+Made it into endpoint
+requested image name is corrected_2.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_1.png
+Made it into endpoint
+requested image name is corrected_3.png
+Made it into endpoint
+requested image name is corrected_2.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_7.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_2.png
+Made it into endpoint
+requested image name is corrected_1.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_7.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+requested image name is corrected_7.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+requested image name is corrected_7.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_1.png
+Made it into endpoint
+requested image name is corrected_2.png
+Made it into endpoint
+requested image name is corrected_3.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_5.png
+Made it into endpoint
+requested image name is corrected_4.png
+Made it into endpoint
+requested image name is corrected_6.png
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_https___rubbingtherock.com_wp-content_uploads_imagn-images_2017_07_19160871.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_6E470B76-1FA9-41F2-9A6E-05CFE1D2E05D.jpeg
+Made it into endpoint
+requested image name is corrected_BBA95A13-A478-4EB6-AB2A-C4D558625A1C.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+requested image name is corrected_thumb7.jpg
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+requested image name is corrected_thumb7.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb2.jpg
+Made it into endpoint
+requested image name is corrected_thumb3.jpg
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Made it into endpoint
+requested image name is corrected_thumb7.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+requested image name is corrected_https___rubbingtherock.com_wp-content_uploads_imagn-images_2017_07_19160871.jpeg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_97CF4BAA-7881-482D-A20A-F7C2CBF63FC0.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_FE1C1F14-D893-4CBE-835D-E9EF9C904E9A.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_449F0C98-7436-4775-B3FE-ABB743196063.jpeg
+Made it into endpoint
+requested image name is corrected_F7E0984B-8461-43B8-AA4F-53D149FC99D7.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_Fb7ivAVWYAEnoZh.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_4C289E31-862E-4B30-A3BD-87C97EB234E5.jpeg
+Made it into endpoint
+requested image name is corrected_F058A382-785D-4DCD-B644-EB0C440ABB80.jpeg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+requested image name is corrected_Fb7ivAVWYAEnoZh.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_death_valley.jpg
+Made it into endpoint
+requested image name is corrected_Fb7ivAVWYAEnoZh.jpg
+Made it into endpoint
+requested image name is corrected_https___rubbingtherock.com_wp-content_uploads_imagn-images_2017_07_19160871.jpeg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+requested image name is corrected_Fb7ivAVWYAEnoZh.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_testimage.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb1.jpg
+Made it into endpoint
+requested image name is corrected_thumb6.jpg
+Made it into endpoint
+requested image name is corrected_thumb5.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_thumb4.jpg
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_Fb7ivAVWYAEnoZh.jpg
+Made it into endpoint
+requested image name is corrected_clemson-tigers-memorial-stadium-jeff-mcjunkin.jpg
+Made it into endpoint
+requested image name is corrected_clemson-football-offensive-struggles-2021.jpg
+Made it into endpoint
+Made it into endpoint
+requested image name is corrected_download.jpg
