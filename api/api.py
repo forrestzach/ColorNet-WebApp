@@ -1,6 +1,6 @@
 from fileinput import filename
 import os, io, time, sys, base64
-from flask import Flask, flash, request, make_response,redirect, url_for, session,jsonify, Response
+from flask import Flask, flash, request, make_response,redirect, url_for, session,jsonify, send_file, Response
 from werkzeug.utils import secure_filename
 from logging.config import dictConfig
 from flask.logging import default_handler
@@ -342,6 +342,12 @@ def getImage():
         "img": image_b64
     }
     return jsonify(response)
+
+@app.route('/api/downloadImage', methods=['GET'])
+def downloadImage():
+    desiredImage = request.args.get('image')
+    imagePath = CORRECTED_FOLDER + "/" + desiredImage
+    return send_file(imagePath, as_attachment=True)
 
 @app.route('/api/time')
 def get_current_time():

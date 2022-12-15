@@ -56,6 +56,7 @@
   /* width: 100vw; */
   /* width: 100%; */
   max-width: 100%;
+  height: 70vh;
 }
 
 .CaroCarousel {
@@ -63,15 +64,29 @@
 }
 
 .CaroItem{
-
+  text-align: center;
+  /* height: 70vh; */
 }
 
 .CaroImage{
   /* width: 500px;
   height: auto;
   object-fit: contain; */
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* padding-left: auto; */
+  /* padding-right: auto; */
   max-width: 100%;
   max-height: 70vh;
+}
+
+.centerButton{
+  text-align: center;
+}
+
+.inputButton{
+  /* text-align: center; */
+  /* width: 215px; */
+  
+  margin-left: calc(50vw - 100px);
 }

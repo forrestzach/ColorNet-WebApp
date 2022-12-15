@@ -14,7 +14,8 @@ function App() {
     <h1>ColorNet</h1>
     <Main />
     
-    <p> The current time is {currentTime}.</p>
+    {/* <p> The current time is {currentTime}.</p> */}
+    {console.log("The current time is " + currentTime)}
     </div>
 
   );
